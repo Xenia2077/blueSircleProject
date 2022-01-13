@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var sixthCircle: BlueCircleView!
     @IBOutlet weak var seventhCircle: BlueCircleView!
     
+    var redColor: CGFloat = 0.15
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -62,9 +64,10 @@ class ViewController: UIViewController {
     }
     
     private func transform(view: UIView) {
-        view.layer.backgroundColor = CGColor(red: 0.2, green: 0, blue: 1, alpha: 1)
-        view.transform = view.transform.scaledBy(x: 1.1, y: 1.1)
+        UIView.animate(withDuration: 0.4) {
+            view.layer.backgroundColor = CGColor(red: self.redColor, green: 0, blue: 1, alpha: 1)
+            view.transform = view.transform.scaledBy(x: 1.15, y: 1.15)
+        }
+        redColor += 0.05
     }
-    
 }
-

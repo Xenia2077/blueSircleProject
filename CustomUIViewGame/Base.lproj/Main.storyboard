@@ -16,11 +16,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8xX-kS-shK" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="88" y="147" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdR-HN-7RX" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="304" y="159" width="60" height="60"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bwe-kS-n1q"/>
+                                    <constraint firstAttribute="height" constant="60" id="m64-UC-nnB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCw-vW-9CS" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="304" y="329" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="46f-9U-N7p"/>
+                                    <constraint firstAttribute="width" constant="60" id="Nce-h7-Gl1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-WJ-up2" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="304" y="499" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="q0t-2H-qGW"/>
+                                    <constraint firstAttribute="width" constant="60" id="qzA-rC-coB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xX-kS-shK" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="50" y="94" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="q7p-kN-ktY"/>
+                                    <constraint firstAttribute="width" constant="60" id="qPd-5d-0Qd"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -28,56 +67,38 @@
                                     <outletCollection property="gestureRecognizers" destination="EJT-MZ-TQg" appends="YES" id="Etc-ap-SPK"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdR-HN-7RX" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="266" y="244" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNn-1E-bye" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="50" y="264" width="60" height="60"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="8Ug-Q1-Wv8"/>
+                                    <constraint firstAttribute="height" constant="60" id="b0D-Wa-IsL"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNn-1E-bye" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="88" y="348" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtk-2f-cHd" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="50" y="434" width="60" height="60"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3ET-Dh-57t"/>
+                                    <constraint firstAttribute="width" constant="60" id="E3f-ss-bUP"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zCw-vW-9CS" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="266" y="443" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-cx-0ur" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
+                                <rect key="frame" x="50" y="604" width="60" height="60"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <gestureRecognizers/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xtk-2f-cHd" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="88" y="530" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <gestureRecognizers/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-WJ-up2" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="266" y="633" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <gestureRecognizers/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-cx-0ur" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
-                                <rect key="frame" x="88" y="723" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Mdh-zo-nKG"/>
+                                    <constraint firstAttribute="height" constant="60" id="rBK-fK-rgr"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -85,6 +106,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xtk-2f-cHd" firstAttribute="top" secondItem="fNn-1E-bye" secondAttribute="bottom" constant="110" id="3sK-yG-iIi"/>
+                            <constraint firstItem="lGJ-cx-0ur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="4dh-yl-Sg9"/>
+                            <constraint firstItem="zCw-vW-9CS" firstAttribute="top" secondItem="xdR-HN-7RX" secondAttribute="bottom" constant="110" id="7xg-e6-4CJ"/>
+                            <constraint firstItem="xtk-2f-cHd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="7z0-P7-pcH"/>
+                            <constraint firstItem="dfa-WJ-up2" firstAttribute="top" secondItem="zCw-vW-9CS" secondAttribute="bottom" constant="110" id="Qit-On-vLo"/>
+                            <constraint firstItem="8xX-kS-shK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Qul-qj-ZnW"/>
+                            <constraint firstItem="lGJ-cx-0ur" firstAttribute="top" secondItem="xtk-2f-cHd" secondAttribute="bottom" constant="110" id="RbK-eZ-AMv"/>
+                            <constraint firstItem="fNn-1E-bye" firstAttribute="top" secondItem="8xX-kS-shK" secondAttribute="bottom" constant="110" id="civ-lB-BGf"/>
+                            <constraint firstItem="xdR-HN-7RX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="h8z-Ya-Uc6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfa-WJ-up2" secondAttribute="trailing" constant="50" id="i0m-kF-ad1"/>
+                            <constraint firstItem="fNn-1E-bye" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="qMk-pA-bqZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xdR-HN-7RX" secondAttribute="trailing" constant="50" id="sgz-wQ-XI5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zCw-vW-9CS" secondAttribute="trailing" constant="50" id="taF-H0-q04"/>
+                            <constraint firstItem="8xX-kS-shK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="zeD-nE-ikr"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="fifthCircle" destination="xtk-2f-cHd" id="zS1-nj-XDP"/>
