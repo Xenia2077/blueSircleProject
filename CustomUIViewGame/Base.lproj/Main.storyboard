@@ -27,6 +27,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1pz-Id-vZK" appends="YES" id="mK8-co-o0o"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCw-vW-9CS" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
                                 <rect key="frame" x="304" y="329" width="60" height="60"/>
@@ -39,6 +42,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="KP3-Ks-hOk" appends="YES" id="cEc-yj-ne5"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-WJ-up2" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
                                 <rect key="frame" x="304" y="499" width="60" height="60"/>
@@ -51,6 +57,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LkA-Co-rfp" appends="YES" id="UcF-Lh-iTl"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xX-kS-shK" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
                                 <rect key="frame" x="50" y="94" width="60" height="60"/>
@@ -78,6 +87,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MdA-Pg-F0Z" appends="YES" id="jGg-7F-wVM"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtk-2f-cHd" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
                                 <rect key="frame" x="50" y="434" width="60" height="60"/>
@@ -90,6 +102,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="D4X-aB-aat" appends="YES" id="x5b-Uc-EF8"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-cx-0ur" customClass="BlueCircleView" customModule="CustomUIViewGame" customModuleProvider="target">
                                 <rect key="frame" x="50" y="604" width="60" height="60"/>
@@ -102,6 +117,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Vem-DG-L2g" appends="YES" id="Pcg-wQ-Exh"/>
+                                </connections>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -137,7 +155,43 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="EJT-MZ-TQg">
                     <connections>
                         <action selector="panAction:" destination="BYZ-38-t0r" id="PE9-qe-rNy"/>
-                        <outlet property="delegate" destination="BYZ-38-t0r" id="csL-VT-UtD"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Ifw-sd-SsU"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="MdA-Pg-F0Z">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="Jgb-Jd-NGL"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ujV-KP-fPh"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="1pz-Id-vZK">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="xMe-1T-NuH"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ZVV-IY-qc1"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="KP3-Ks-hOk">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="dBi-xM-7gb"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Mx6-S6-UKk"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="D4X-aB-aat">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="kIX-2f-pDF"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="v6p-8M-HLI"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Vem-DG-L2g">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="IUj-N3-3ue"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Pir-md-ZR2"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="LkA-Co-rfp">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="ezC-O4-V0V"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="FMo-Ph-g95"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
